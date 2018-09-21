@@ -1,0 +1,56 @@
+{
+    "name": "scheduler-api",
+    "description": "Demo scheduler backend api",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+        "dev": "ts-node ./src/server.ts",
+        "start": "npm run dev",
+        "build": "cross-env NODE_ENV=production node ./parcel/build.js",
+        "server": "cross-env NODE_ENV=production node .build/server.js"
+    },
+    "keywords": [],
+    "author": "Warren Flack",
+    "license": "UNLICENSED",
+    "engines": {
+        "npm": ">=6.4.0",
+        "node": ">=8.11.0"
+    },
+    "browserslist": [
+        "> 1%",
+        "Last 2 versions"
+    ],
+    "devDependencies": {
+        "@types/bcryptjs": "^2.4.2",
+        "@types/bunyan": "^1.8.4",
+        "@types/bunyan-prettystream": "^0.1.31",
+        "@types/jsonwebtoken": "^7.2.8",
+        "@types/koa": "^2.0.46",
+        "@types/koa-bodyparser": "^5.0.1",
+        "@types/koa-compress": "^2.0.8",
+        "@types/koa-router": "^7.0.32",
+        "@types/koa2-cors": "^2.0.1",
+        "@types/uuid": "^3.4.4",
+        "cross-env": "^5.2.0",
+        "fs-extra": "^7.0.0",
+        "parcel-bundler": "^1.9.7",
+        "parcel-plugin-typescript": "^1.0.0",
+        "ts-node": "^7.0.1",
+        "typescript": "^3.0.3"
+    },
+    "dependencies": {
+        "bcryptjs": "^2.4.3",
+        "bunyan": "^1.8.12",
+        "bunyan-prettystream": "^0.1.3",
+        "jsonwebtoken": "^8.3.0",
+        "koa": "^2.5.3",
+        "koa-bodyparser": "^4.2.1",
+        "koa-bunyan": "^1.0.1",
+        "koa-compress": "^3.0.0",
+        "koa-jwt": "^3.5.1",
+        "koa-router": "^7.4.0",
+        "koa2-cors": "^2.0.6",
+        "moment": "^2.22.2",
+        "moment-range": "^4.0.1"
+    }
+}

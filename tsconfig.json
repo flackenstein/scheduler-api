@@ -1,0 +1,28 @@
+{
+    "compilerOptions": {
+        "outDir": ".build",        // path to output directory
+        "sourceMap": false,           // allow sourcemap support
+        "noImplicitAny": true,       // Raise error on expressions and declarations with an implied any type
+        "target": "es6",             // specify ECMAScript target version
+        "moduleResolution": "node",
+        "module": "commonjs",        // specify module code generation
+        "allowJs": false,             // allow a partial TypeScript and JavaScript codebase
+        "checkJs": false,
+        "jsx": "react",
+        "importHelpers": true,
+        "lib": ["esnext", "dom"],
+        "strict": true
+    },
+    "parcelTsPluginOptions": {
+        // If true type-checking is disabled
+        "transpileOnly": false
+    },
+    "include": [
+        "./src/**/*"
+    ],
+    "exclude": [
+        "node_modules",
+        ".git",
+        ".build"
+    ]
+}
