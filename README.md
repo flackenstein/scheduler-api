@@ -1,6 +1,6 @@
 
-# WELL API DEMO
-API backend for the SPI client side "well-web-demo" application.
+# DEMO SCHEDULER API
+API backend for the SPI client side "scheduler-api" application.
 
 ### Requirements
 - node version 8.11.x or later
@@ -11,8 +11,8 @@ API backend for the SPI client side "well-web-demo" application.
 
 ### Setting up a production build environment for deployment
 1. Execute command "npm ci" from console/terminal to install module dependencies
-1. Execute command "npm run builld" to build production files.  Production files will be installed in root folder ".build"
-1. Test build by executing command "npm run server" to launch the server on port 9443.
+2. Execute command "npm run builld" to build production files.  Production files will be installed in root folder ".build"
+3. Test build by executing command "npm run server" to launch the server on port 9443.
 
 ------------
 
